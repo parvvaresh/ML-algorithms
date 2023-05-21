@@ -192,3 +192,50 @@ class cosine_similarity:
   
   def _calcute(self, vector1, vector2):
     return (self._inner_product(vector1, vector2)) / ((self._measure_the_vector(vector1)) * (self._measure_the_vector(vector2)))
+ 
+
+
+class linear_regression:
+  def __init__(self, lr = 1e-6, repeats = 100000):
+    self.lr = lr
+    self.repeats = repeats
+    self.costs = []
+    self.weight = None
+    self.bias = None
+  def fit(self, X, Y):
+
+    m = X.shape[0]
+    n = X.shape[1]
+
+
+    self.weight = np.zeros((n, 1))
+    self.bias = 0
+
+    for repeat in range(0, self.repeats):
+
+      y_hat = np.dot(X, self.weight) + self.bias
+      Y = Y.reshape(m, 1)
+      loss = y_hat - Y
+
+      cost = np.sum(loss ** 2) / (m * 2)
+      self.costs.append(cost)
+
+      db = np.sum(loss) / m
+      dw = np.dot(X.T, loss) / m
+
+      self.weight -= (self.lr) * dw
+      self.bias -= (self.lr) * db
+
+  def predict(self, X):
+    self.y_predict =  np.dot(X, self.weight) + self.bias
+    return self.y_predict
+
+  def get_pharameter(self):
+    return f"this is wight{self.weight} and this bias {self.bias}"
+
+  def MSE(self, y):
+    loss_predict = self.predict - y
+    mse = np.sum(loss_predict ** 2) / y.shape[0]
+    return mse
+  def show_costs(self):
+    plt.plot(self.costs)
