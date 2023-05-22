@@ -239,3 +239,28 @@ class linear_regression:
     return mse
   def show_costs(self):
     plt.plot(self.costs)
+
+
+class jaccard_model:
+  def __init__(self, k = 2):
+    self.k = k
+
+  def jaccard_similarity(self, A, B):
+    SA = set([A[index : index + self.k] for index in range(0 , len(A) - (self.k - 1))])
+    SB = set([B[index : index + self.k] for index in range(0 , len(B) - (self.k - 1))])
+
+    intersect = SA.intersection(SB)
+    union = SA.union(SB)
+    jaccard_similarity = len(intersect) / len(union)
+
+    return jaccard_similarity
+
+  def jaccard_distance(self, A, B):
+    SA = set([A[index : index + self.k] for index in range(0 , len(A) - (self.k - 1))])
+    SB = set([B[index : index + self.k] for index in range(0 , len(B) - (self.k - 1))])
+
+    intersect = SA.intersection(SB)
+    union = SA.union(SB)
+    jaccard_similarity = len(intersect) / len(union)
+    jaccard_distance = 1 - jaccard_similarity 
+    return jaccard_distance
