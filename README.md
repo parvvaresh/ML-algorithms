@@ -1,1 +1,1 @@
-# machine learning algorithms from Scratch
+# machine learning  and NLP algorithms from Scratch
