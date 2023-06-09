@@ -264,3 +264,41 @@ class jaccard_model:
     jaccard_similarity = len(intersect) / len(union)
     jaccard_distance = 1 - jaccard_similarity 
     return jaccard_distance
+  
+  
+class correlation_matrix:
+  def __init__(self, df):
+    self.df = np.array(df)
+    self.cols = list(df.columns)
+    self.samples, self.features = df.shape
+    self.mean = self.df.mean(axis=0)
+    self.co_var_matrix = None
+
+    self._normlaize()
+    self.df = self.df - self.df.mean(axis=0)
+    self.co_var_matrix = np.dot(self.df.T, self.df) / (self.samples)
+
+
+  def show_correlation_matrix_plot(self):
+    fig, ax = plt.subplots()
+    im = ax.imshow(self.co_var_matrix, cmap='coolwarm', interpolation='nearest')
+    ax.set_xticks(np.arange(len(self.co_var_matrix)))
+    ax.set_yticks(np.arange(len(self.co_var_matrix)))
+    ax.set_xticklabels([col for col in self.cols])
+    ax.set_yticklabels([col for col in self.cols])
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
+		         rotation_mode="anchor")
+
+    for i in range(len(self.co_var_matrix)):
+      for j in range(len(self.co_var_matrix)):
+		      ax.text(j, i, '{:.2f}'.format(self.co_var_matrix[i, j]),
+		                ha="center", va="center", color="w")
+
+    plt.colorbar(im)
+    plt.show()
+  
+  def return_matrix(self):
+    return self.co_var_matrix
+
+  def _normlaize(self):
+    self.df  = (self.df - self.mean) / self.df.std(axis=0)
