@@ -302,3 +302,27 @@ class correlation_matrix:
 
   def _normlaize(self):
     self.df  = (self.df - self.mean) / self.df.std(axis=0)
+
+
+
+class pca:
+	def __init__(self, n_component = 1):
+		self.n_component = n_component
+
+
+	def fit(self,X):
+		self.X = np.array(X)
+		X_mean = X - X.mean(axis=0)
+
+		co_variance = np.dot(X_mean.T, X_mean) 
+		value_eig , vector_eig = np.linalg.eig(co_variance)
+		value_eig = [abs(value) for value in value_eig]
+
+		val_vector = list(zip(value_eig, vector_eig))
+		val_vector = (sorted(val_vector, key=lambda item : item[0]))
+
+		principal_component = val_vector[0 : self.n_component]
+		principal_component = [element [1]for element in principal_component]
+		principal_component = np.vstack(principal_component)
+
+		return np.dot(X, principal_component.T)
