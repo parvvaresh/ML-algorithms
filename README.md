@@ -8,7 +8,7 @@ Here we have fully implemented a number of algorithms related to machine learnin
 3.  Cosine Similarity
 4.  Linear regression
 5.  Naive Bayes
-
+6.  correlation matrix
 
 ## NLP
 
