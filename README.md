@@ -10,6 +10,7 @@ Here we have fully implemented a number of algorithms related to machine learnin
 5.  Naive Bayes
 6.  correlation matrix
 7.  PCA
+8.  losgstic regression
 
 ## NLP
 
