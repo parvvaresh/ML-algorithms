@@ -17,3 +17,4 @@ Here we have fully implemented a number of algorithms related to machine learnin
 1.  TF-IDF model
 2.  jaccard distaance & similarity
 3.  bag of word
+4.  sentiment words (week algorithm)
