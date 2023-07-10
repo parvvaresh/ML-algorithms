@@ -20,3 +20,4 @@ Here we have fully implemented a number of algorithms related to machine learnin
 4.  sentiment words (week algorithm)
 5.  BLEU
 6.  N-Germ
+7.  WER
