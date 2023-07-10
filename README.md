@@ -18,3 +18,5 @@ Here we have fully implemented a number of algorithms related to machine learnin
 2.  jaccard distaance & similarity
 3.  bag of word
 4.  sentiment words (week algorithm)
+5.  BLEU
+6.  N-Germ
