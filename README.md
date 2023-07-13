@@ -28,4 +28,4 @@ In this rep, only 2 libraries are used:
 5.  BLEU
 6.  N-Germ
 7.  BEER
-8.  word by word design & word by duc design
+8.  word by word design
