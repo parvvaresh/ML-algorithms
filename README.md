@@ -17,7 +17,9 @@ In this rep, only 2 libraries are used:
 6.  correlation matrix
 7.  PCA
 8.  losgstic regression
-9.  Recall & Precision & F1score & Confusion matrix
+9.  Confusion matrix
+10. Recall & Precision
+11. F1score
 
 ## NLP
 
