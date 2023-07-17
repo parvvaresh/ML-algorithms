@@ -32,3 +32,5 @@ In this rep, only 2 libraries are used:
 7.  BEER
 8.  word by word design
 9.  word by word duc
+10. extract object and subject from text
+11. comming soon!!
