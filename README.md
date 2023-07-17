@@ -17,7 +17,7 @@ In this rep, only 2 libraries are used:
 6.  correlation matrix
 7.  PCA
 8.  losgstic regression
-9.  classification report (Confusion matrix & Recall & Precision & F1score)
+9.  Confusion_matrix (for more than 2 labels)
 
 ## NLP
 
@@ -27,7 +27,7 @@ In this rep, only 2 libraries are used:
 4.  sentiment words (week algorithm)
 5.  BLEU
 6.  N-Germ
-7.  BEER
+7.  BEER (not upload)
 8.  word by word design
 9.  word by word duc
 10. extract object and subject from text
