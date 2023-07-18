@@ -33,3 +33,4 @@ In this rep, only 2 libraries are used:
 10. extract object and subject from text
 11. edit distance (Dynamic Programming)
 12. edit distance (recursive function)
+13. WER score
