@@ -27,7 +27,7 @@ In this rep, only 2 libraries are used:
 4.  sentiment words (week algorithm)
 5.  BLEU
 6.  N-Germ
-7.  BEER (not upload)
+7.  BEER (not upload) <img src="https://user-images.githubusercontent.com/5679180/79618120-0daffb80-80be-11ea-819e-d2b0fa904d07.gif" width="27px"> 
 8.  word by word design
 9.  word by word duc
 10. extract object and subject from text
