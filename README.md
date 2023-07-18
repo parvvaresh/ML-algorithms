@@ -31,4 +31,5 @@ In this rep, only 2 libraries are used:
 8.  word by word design
 9.  word by word duc
 10. extract object and subject from text
-11. comming soon!!
+11. edit distance (Dynamic Programming)
+12. edit distance (recursive function)
