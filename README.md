@@ -34,3 +34,4 @@ In this rep, only 2 libraries are used:
 11. edit distance (Dynamic Programming)
 12. edit distance (recursive function)
 13. WER score
+14. CHERF core (not upload)
