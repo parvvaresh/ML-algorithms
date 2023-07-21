@@ -18,6 +18,7 @@ In this rep, only 2 libraries are used:
 7.  PCA
 8.  losgstic regression
 9.  Confusion_matrix (for more than 2 labels)
+10.  SVM (not upload)
 
 ## NLP
 
