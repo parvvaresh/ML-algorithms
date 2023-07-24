@@ -35,4 +35,4 @@ In this rep, only 2 libraries are used:
 12. edit distance (recursive function)
 13. WER score
 14. CHRF score
-15. NIST score (not upload)
+15. NIST score
