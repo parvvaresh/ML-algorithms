@@ -29,7 +29,7 @@ In this rep, only 2 libraries are used:
 5.  BLEU
 6.  N-Germ 
 8.  word by word design
-9.  word by duc
+9.  word by duc design
 10. extract object and subject from text
 11. edit distance (Dynamic Programming)
 12. edit distance (recursive function)
