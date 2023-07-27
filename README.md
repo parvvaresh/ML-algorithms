@@ -37,3 +37,4 @@ In this rep, only 2 libraries are used:
 14. CHRF score
 15. NIST score
 16. METEOR score (not upload)
+17. TER score
