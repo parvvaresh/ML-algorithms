@@ -44,3 +44,8 @@ In this rep, only 2 libraries are used:
 *  A*
 *  min-max
 
+## Deep Learning
+*  MVP
+*  CNN
+*  LSTM
+
