@@ -38,6 +38,7 @@ In this rep, only 2 libraries are used:
 *  NIST score ✓
 *  METEOR score (not upload)
 *  TER score ✓
+  
 ## AI classic Algorithm
 *  DFS ✓
 *  BFS
@@ -48,4 +49,9 @@ In this rep, only 2 libraries are used:
 *  MVP
 *  CNN
 *  LSTM
+
+## data structures
+*  stack ✓
+*  graph ✓
+*  linked list
 
