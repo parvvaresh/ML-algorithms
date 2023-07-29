@@ -54,4 +54,6 @@ In this rep, only 2 libraries are used:
 *  stack ✓
 *  graph ✓
 *  linked list
+*  bianary tree
+*  queue ✓
 
