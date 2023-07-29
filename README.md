@@ -9,37 +9,37 @@ In this rep, only 2 libraries are used:
 
 ## ML
 
-*  KNN
-*  K_menas
-*  Cosine Similarity
-*  Linear regression
-*  Naive Bayes
-*  correlation matrix
-*  PCA
-*  losgstic regression
-*  Confusion_matrix (for more than 2 labels)
-*  SVM (not upload)
+*  KNN ✓
+*  K_menas ✓
+*  Cosine Similarity ✓
+*  Linear regression ✓
+*  Naive Bayes ✓
+*  correlation matrix ✓
+*  PCA ✓
+*  losgstic regression ✓
+*  Confusion_matrix (for more than 2 labels) ✓
+*  SVM (not upload) 
 
 ## NLP
 
-*  TF-IDF model
-*  jaccard distaance & similarity
-*  bag of word
-*  sentiment words (week algorithm)
-*  BLEU
-*  N-Germ 
-*  word by word design
-*  word by duc design
-*  extract object and subject from text
-*  edit distance (Dynamic Programming)
-*  edit distance (recursive function)
-*  WER score
-*  CHRF score
-*  NIST score
+*  TF-IDF model ✓
+*  jaccard distaance & similarity ✓
+*  bag of word ✓
+*  sentiment words (week algorithm) ✓
+*  BLEU ✓
+*  N-Germ ✓
+*  word by word design ✓
+*  word by duc design ✓
+*  extract object and subject from text ✓
+*  edit distance (Dynamic Programming) ✓
+*  edit distance (recursive function) ✓
+*  WER score ✓
+*  CHRF score ✓
+*  NIST score ✓
 *  METEOR score (not upload)
-*  TER score
+*  TER score ✓
 ## AI classic Algorithm
-*  DFS
+*  DFS ✓
 *  BFS
 *  A*
 *  min-max
