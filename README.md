@@ -53,7 +53,7 @@ In this rep, only 2 libraries are used:
 ## data structures
 *  stack ✓
 *  graph ✓
-*  linked list
+*  linked list ✓
 *  bianary tree
 *  queue ✓
 
