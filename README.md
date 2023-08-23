@@ -15,7 +15,7 @@ In this rep, only 2 libraries are used:
 *  Cosine Similarity ✓
 *  Naive Bayes ✓
 *  PCA ✓
-*  SVM
-*  decision tree
-*  random forest
+*  SVM 
+*  decision tree ✓ 
+*  random forest 
 
