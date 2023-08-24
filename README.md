@@ -14,8 +14,8 @@ In this rep, only 2 libraries are used:
 *  K_menas ✓
 *  Cosine Similarity ✓
 *  Naive Bayes ✓
-*  PCA ✓
+*  decision tree ✓
+*  random forest ✓
 *  SVM 
-*  decision tree ✓ 
-*  random forest 
+*  PCA 
 
