@@ -7,8 +7,8 @@ In this rep, only 2 libraries are used:
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-## ML
 *  losgstic regression ✓
+    link link link
 *  Linear regression ✓
 *  KNN ✓
 *  K_menas ✓
