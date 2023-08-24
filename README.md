@@ -17,5 +17,5 @@ In this rep, only 2 libraries are used:
 *  decision tree ✓
 *  random forest ✓
 *  SVM 
-*  PCA 
+*  PCA ✓
 
