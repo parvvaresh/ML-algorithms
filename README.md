@@ -18,5 +18,6 @@ In this rep, only 2 libraries are used:
 *  PCA ✓
 *  SVM 
 *  preprcton
+*  adabost ✓
   
 
