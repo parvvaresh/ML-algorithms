@@ -8,9 +8,8 @@ In this rep, only 2 libraries are used:
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
 *  losgstic regression ✓
-  
-    link link link
 *  Linear regression ✓
+*  regression ✓
 *  KNN ✓
 *  K_menas ✓
 *  Cosine Similarity ✓
@@ -19,4 +18,6 @@ In this rep, only 2 libraries are used:
 *  random forest ✓
 *  SVM 
 *  PCA ✓
+*  preprcton
+  
 
