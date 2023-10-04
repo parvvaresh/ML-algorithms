@@ -19,5 +19,6 @@ In this rep, only 2 libraries are used:
 *  SVM 
 *  preprcton
 *  adabost ✓
+*  NMF ✓
   
 
