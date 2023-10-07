@@ -13,6 +13,7 @@ In this rep, only 2 libraries are used:
 *  K_menas ✓
 *  Cosine Similarity ✓
 *  Naive Bayes ✓
+*  Naive Bayes + alph parameter ✓
 *  decision tree ✓
 *  random forest ✓
 *  PCA ✓
