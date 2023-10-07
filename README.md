@@ -2,7 +2,7 @@
 
 Here we have fully implemented a number of algorithms related to machine learning
 
-In this rep, only 2 libraries are used:
+In this rep, only one libraries are used:
 
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 *  load data ✓
