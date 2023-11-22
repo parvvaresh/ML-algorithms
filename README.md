@@ -10,6 +10,7 @@ In this rep, only one libraries are used:
 *  Linear regression ✓
 *  regression ✓
 *  KNN ✓
+*  W-KNN ✓
 *  K_menas ✓
 *  Cosine Similarity ✓
 *  Naive Bayes ✓
