@@ -53,10 +53,10 @@ In this repository, we have meticulously implemented a diverse array of machine 
 17. **Non-Negative Matrix Factorization (NMF) ✓**
     - NMF, a dimensionality reduction technique with applications in feature extraction, has been implemented, highlighting our capabilities in matrix factorization.
 
-18. **DBSCAN ✓**:
-   - Our meticulous implementation of DBSCAN reflects expertise in unsupervised density-based clustering for identifying clusters of varying shapes and sizes while robustly handling noise points.
+18. **DBSCAN ✓**
+    - Our meticulous implementation of DBSCAN reflects expertise in unsupervised density-based clustering for identifying clusters of varying shapes and sizes while robustly handling noise points.
 
-19 . **Minimum Distance Classifier✓**:
-   - Our implementation employs distance metrics for efficient classification, emphasizing simplicity and effectiveness in
+19. **Minimum Distance Classifier✓**
+    - Our implementation employs distance metrics for efficient classification, emphasizing simplicity and effectiveness in
      
 This repository stands as a testament to our commitment to understanding and implementing machine learning algorithms from the ground up, providing a solid foundation for future developments and innovations in the field.
