@@ -44,8 +44,8 @@ In this repository, we have meticulously implemented a diverse array of machine 
 14. **Support Vector Machine (SVM)**
     - (Work in Progress) Our ongoing efforts include the implementation of SVM, a robust algorithm for both classification and regression tasks.
 
-15. **Perceptron**
-    - (Work in Progress) The implementation of the perceptron algorithm is underway, emphasizing its role as a foundational building block for neural networks.
+15. **Simple Perceptron without hidden layer**
+    - The implementation of the perceptron algorithm is underway, emphasizing its role as a foundational building block for neural networks.
 
 16. **AdaBoost ✓**
     - AdaBoost, an ensemble learning technique, has been implemented to showcase our proficiency in boosting algorithms.
