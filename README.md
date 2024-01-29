@@ -44,19 +44,16 @@ In this repository, we have meticulously implemented a diverse array of machine 
 14. **Support Vector Machine (SVM)**
     - (Work in Progress) Our ongoing efforts include the implementation of SVM, a robust algorithm for both classification and regression tasks.
 
-15. **Simple Perceptron without hidden layer ✓**
-    - The implementation of the perceptron algorithm is underway, emphasizing its role as a foundational building block for neural networks.
-
-16. **AdaBoost ✓**
+15. **AdaBoost ✓**
     - AdaBoost, an ensemble learning technique, has been implemented to showcase our proficiency in boosting algorithms.
 
-17. **Non-Negative Matrix Factorization (NMF) ✓**
+16. **Non-Negative Matrix Factorization (NMF) ✓**
     - NMF, a dimensionality reduction technique with applications in feature extraction, has been implemented, highlighting our capabilities in matrix factorization.
 
-18. **DBSCAN ✓**
+17. **DBSCAN ✓**
     - Our meticulous implementation of DBSCAN reflects expertise in unsupervised density-based clustering for identifying clusters of varying shapes and sizes while robustly handling noise points.
 
-19. **Minimum Distance Classifier✓**
+18. **Minimum Distance Classifier✓**
     - Our implementation employs distance metrics for efficient classification, emphasizing simplicity and effectiveness in
      
 This repository stands as a testament to our commitment to understanding and implementing machine learning algorithms from the ground up, providing a solid foundation for future developments and innovations in the field.
