@@ -2,10 +2,10 @@ there are a machine learning algorithm :
 
 1.  Regression : 
     - Linear Regression ✓
-    - Ridge Regression
+    - Ridge Regression ✓
     - Lasso Regression
     - ElasticNet Regression
-    
+
       ------------------------------------------------
     - Decision Tree Regression
     - Random Forest Regression
