@@ -1,7 +1,7 @@
 there are a machine learning algorithm : 
 
 1.  Regression : 
-    - Linear Regression
+    - Linear Regression 
     - Ridge Regression
     - Lasso Regression
     - ElasticNet Regression
@@ -36,6 +36,6 @@ there are a machine learning algorithm :
     
 
     - Logstic Regression
-    - Bayesian
-    - Minimum Distance Classifier 
+    - Bayesian 
+    - Minimum Distance Classifier ✓
 
