@@ -5,6 +5,7 @@ there are a machine learning algorithm :
     - Ridge Regression
     - Lasso Regression
     - ElasticNet Regression
+
     - Decision Tree Regression
     - Random Forest Regression
     - Support Vector Regression (SVR)
@@ -31,8 +32,8 @@ there are a machine learning algorithm :
     
     - 3.2. Tree:
 
-        - Decision Tree Regression
-        - Random Forest Regression
+        - Decision Tree 
+        - Random Forest 
     
 
     - Logstic Regression
