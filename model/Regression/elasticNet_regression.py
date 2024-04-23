@@ -1,13 +1,18 @@
 import numpy as np
 
-class lasso_regression:
+import numpy as np
+
+class elasticNet_regression:
     def __init__(self,
                  learning_rate : float = 1e-4,
                  iter : int = 1000,
-                 alpha : float = 1e-4,) -> None:
+                 alpha1 : float = 1e-4,
+                 alpha2 : float = 1e-4) -> None:
         self.learning_rate = learning_rate
         self.iter = iter
-        self.alpha = alpha
+        
+        self.alpha1 = alpha1
+        self.alpha2 = alpha2
         
         self.weights = None
         self.bias = None
@@ -25,12 +30,17 @@ class lasso_regression:
         for _ in range(self.iter):
             y_predict = np.dot(X_train, self.weights) + self.bias        
             loss = y_predict - y_train
-            cost = np.sum(loss ** 2) +  self.alpha * np.sum(np.abs(self.weights)) / (2 * self.n_smaples)
+            l1_regularization = self.alpha1 * np.sum(np.abs(self.weights))
+            l2_regularization = self.alpha2 * np.sum(self.weights ** 2)
+            cost = (np.sum(loss ** 2)  +  (l1_regularization) + (l2_regularization)) / (2 * self.n_smaples)
             self.cost.append(cost)
             
             #update the weights and costs
-            dw = (np.dot(X_train, loss) + self.alpha * np.sign(self.weights))  / self.n_smaples
+            l1_regularization_term = self.alpha1 * np.sign(self.weights)
+            l2_regularization_term = self.alpha2 * self.weights
+            dw = (np.dot(X_train, loss) + l1_regularization_term + l2_regularization_term)  / self.n_smaples
             db = np.sum(loss) / self.n_samples
+
             
             self.weights -= (self.learning_rate *dw)
             self.bias -= (self.learning_rate * db)

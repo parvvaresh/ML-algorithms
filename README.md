@@ -4,14 +4,14 @@ there are a machine learning algorithm :
     - Linear Regression ✓
     - Ridge Regression ✓
     - Lasso Regression ✓
-    - ElasticNet Regression
+    - ElasticNet Regression ✓
 
       ------------------------------------------------
     - Decision Tree Regression
     - Random Forest Regression
     - Support Vector Regression (SVR)
     - Bayesian Regression
-    
+
       ------------------------------------------------
 
     - KNN Regression ✓
