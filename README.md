@@ -3,7 +3,7 @@ there are a machine learning algorithm :
 1.  Regression : 
     - Linear Regression ✓
     - Ridge Regression ✓
-    - Lasso Regression
+    - Lasso Regression ✓
     - ElasticNet Regression
 
       ------------------------------------------------
@@ -11,6 +11,9 @@ there are a machine learning algorithm :
     - Random Forest Regression
     - Support Vector Regression (SVR)
     - Bayesian Regression
+    
+      ------------------------------------------------
+
     - KNN Regression ✓
     - Weight KNN Regression ✓
 

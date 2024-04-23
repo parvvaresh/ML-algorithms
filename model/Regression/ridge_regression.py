@@ -28,7 +28,7 @@ class ridge_regression:
             self.costs.append(cost)
             
             #update the weights and bias
-            dw = (np.dot(loss, X_train) + 2 * self.alpha * np.sum(self.weights)) / self.m
+            dw = (np.dot(loss, X_train) + 2 * self.alpha * self.weights) / self.m
             db = np.sum(loss) / self.m
             
             self.weights -= dw * self.learning_rate
