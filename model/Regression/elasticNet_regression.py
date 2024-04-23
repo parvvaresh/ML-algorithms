@@ -36,8 +36,10 @@ class elasticNet_regression:
             self.cost.append(cost)
             
             #update the weights and costs
+            
             l1_regularization_term = self.alpha1 * np.sign(self.weights)
             l2_regularization_term = self.alpha2 * self.weights
+            
             dw = (np.dot(X_train, loss) + l1_regularization_term + l2_regularization_term)  / self.n_smaples
             db = np.sum(loss) / self.n_samples
 
