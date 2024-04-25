@@ -40,7 +40,8 @@ there are a machine learning algorithm :
         - Random Forest 
     
 
-    - Logstic Regression
+    - Logstic Regression ✓
     - Bayesian ✓
     - Minimum Distance Classifier ✓
+    - Support Vector Machine (SVM)
 
