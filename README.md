@@ -41,6 +41,6 @@ there are a machine learning algorithm :
     
 
     - Logstic Regression
-    - Bayesian 
+    - Bayesian ✓
     - Minimum Distance Classifier ✓
 
