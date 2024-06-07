@@ -44,4 +44,5 @@ there are a machine learning algorithm :
     - Bayesian ✓
     - Minimum Distance Classifier ✓
     - Support Vector Machine (SVM)
+    - Perceptron ✓
 
