@@ -3,12 +3,10 @@
 - Ridge Regression ✓
 - Lasso Regression ✓
 - ElasticNet Regression ✓
-  ------------------------------------------------
 - Decision Tree Regression
 - Random Forest Regression
 - Support Vector Regression (SVR)
-- Bayesian Regression
-  ------------------------------------------------
+- Bayesian Regression  
 - KNN Regression ✓
 - Weight KNN Regression ✓
 
@@ -24,21 +22,17 @@
 
 ### 3. Classification:
 
-#### 3.1. KNN:
 - KNN ✓
 - Weight KNN ✓
-
-#### 3.2. Tree:
 - Decision Tree
 - Random Forest
-
 - Logistic Regression ✓
 - Bayesian ✓
 - Minimum Distance Classifier ✓
 - Support Vector Machine (SVM)
 - Perceptron ✓
 
-### 4. Dimensionality Reduction:
+### 3. Dimensionality Reduction:
 - Principal Component Analysis (PCA)
 - Linear Discriminant Analysis (LDA)
 - Fisher's Linear Discriminant Analysis (FLDA)
