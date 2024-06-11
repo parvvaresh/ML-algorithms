@@ -1,48 +1,44 @@
-there are a machine learning algorithm : 
+### 1. Regression:
+- Linear Regression ✓
+- Ridge Regression ✓
+- Lasso Regression ✓
+- ElasticNet Regression ✓
+  ------------------------------------------------
+- Decision Tree Regression
+- Random Forest Regression
+- Support Vector Regression (SVR)
+- Bayesian Regression
+  ------------------------------------------------
+- KNN Regression ✓
+- Weight KNN Regression ✓
 
-1.  Regression : 
-    - Linear Regression ✓
-    - Ridge Regression ✓
-    - Lasso Regression ✓
-    - ElasticNet Regression ✓
+### 2. Clustering:
+- K-Means
+- Hierarchical Clustering
+- DBSCAN
+- Mean Shift Clustering
+- Gaussian Mixture Models
+- Spectral Clustering
+- Agglomerative Clustering
+- Affinity Propagation
 
-      ------------------------------------------------
-    - Decision Tree Regression
-    - Random Forest Regression
-    - Support Vector Regression (SVR)
-    - Bayesian Regression
+### 3. Classification:
 
-      ------------------------------------------------
+#### 3.1. KNN:
+- KNN ✓
+- Weight KNN ✓
 
-    - KNN Regression ✓
-    - Weight KNN Regression ✓
+#### 3.2. Tree:
+- Decision Tree
+- Random Forest
 
-2. Clustering:
-    - K-Means
-    - Hierarchical Clustering
-    - DBSCAN
-    - Mean Shift Clustering
-    - Gaussian Mixture Models
-    - Spectral Clustering
-    - Agglomerative Clustering
-    - Affinity Propagation
-    
-3. Classification:
+- Logistic Regression ✓
+- Bayesian ✓
+- Minimum Distance Classifier ✓
+- Support Vector Machine (SVM)
+- Perceptron ✓
 
-    - 3.1. KNN:
-
-        - Knn ✓
-        - Weight Knn ✓
-    
-    - 3.2. Tree:
-
-        - Decision Tree 
-        - Random Forest 
-    
-
-    - Logstic Regression ✓
-    - Bayesian ✓
-    - Minimum Distance Classifier ✓
-    - Support Vector Machine (SVM)
-    - Perceptron ✓
-
+### 4. Dimensionality Reduction:
+- Principal Component Analysis (PCA)
+- Linear Discriminant Analysis (LDA)
+- Fisher's Linear Discriminant Analysis (FLDA)
