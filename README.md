@@ -18,8 +18,9 @@
 
 ### 3. Classification:
 
-- KNN ✓
-    - Weight KNN 
+- KNN (with 2 distance metric) ✓
+    - uniform KNN ✓
+    - distance Weight KNN ✓
 - Decision Tree ✓
 - Random Forest ✓
 - Logistic Regression 
