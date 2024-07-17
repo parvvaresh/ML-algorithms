@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class NaiveBayes:
+class GaussianNB:
     def fit(self,
             X : np.array,
             y : np.array) -> None:
