@@ -24,7 +24,7 @@
 - Decision Tree ✓
 - Random Forest ✓
 - Logistic Regression 
-- Bayesian 
+- Bayesian ✓
 - Minimum Distance Classifier 
 - Support Vector Machine (SVM)
 - Perceptron ✓
