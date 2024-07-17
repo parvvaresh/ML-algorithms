@@ -18,9 +18,9 @@
 
 ### 3. Classification:
 
-- KNN 
-- Weight KNN 
-- Decision Tree
+- KNN ✓
+    - Weight KNN 
+- Decision Tree ✓
 - Random Forest ✓
 - Logistic Regression 
 - Bayesian 
@@ -32,4 +32,3 @@
 ### 3. Dimensionality Reduction:
 - Principal Component Analysis (PCA)
 - Linear Discriminant Analysis (LDA)
-- Fisher's Linear Discriminant Analysis (FLDA)
