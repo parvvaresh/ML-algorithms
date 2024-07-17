@@ -3,7 +3,7 @@ from collections import Counter
 
 from metrics import *
 
-class KNN:
+class UniformKnn:
     def __init__(self, 
                  K : int,
                  metric) -> None:
