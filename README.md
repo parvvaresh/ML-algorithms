@@ -26,7 +26,7 @@
 - Logistic Regression 
 - Bayesian 
     - Gaussian ✓
-    - Multinomial
+    - Multinomial ✓
 - Minimum Distance Classifier 
 - Support Vector Machine (SVM)
 - Perceptron ✓

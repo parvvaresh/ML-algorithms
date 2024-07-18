@@ -2,6 +2,10 @@ import numpy as np
 
 
 class GaussianNB:
+    def __init__(self,
+                 var_smoothing : float) -> None:
+        self.var_smoothing = var_smoothing
+
     def fit(self,
             X : np.array,
             y : np.array) -> None:
@@ -43,7 +47,7 @@ class GaussianNB:
              index : int,
              x : np.array) -> np.array:
         mean = self._mean[index]
-        var = self._var[index]
+        var = self._var[index] + self.var_smoothing
 
         numerator = np.exp(-((x - mean) ** 2) / (2 * var))
         denominator = np.sqrt(2 * np.pi * var)
