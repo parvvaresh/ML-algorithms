@@ -1,42 +1,50 @@
 import numpy as np
 
 class MultinomialNB:
-    def __init__(self,
+    def __init__(self, 
                  alpha : float) -> None:
         self.alpha = alpha
-        self.class_log_prior_ = None
-        self.feature_log_prob = None
-        self.classes_ = None
     
 
     def fit(self,
             X : np.array,
             y : np.array) -> None:
+        
         n_samples, n_features = X.shape
-        self.classes_ = np.unique(y)
-        self.n_classes = len(self.classes_)
+        self._classes = np.unique(y)
+        self.n_classes = len(self._classes)
+
+        self._class_count = np.zeros(self.n_classes, dtype=np.float64)
+        self._feature_count = np.zeros((self.n_classes, n_features), dtype=np.float64)
 
 
-        class_count = np.zeros(self.n_classes, dtype=np.float64)
-        feature_count = np.zeros((self.n_classes, n_features), dtype=np.float64)
+        for index , _class in enumerate(self._classes):
+            X_class = X[y == _class]
+            self._class_count[index] = X_class.shape[0]
+            self._feature_count[index , : ] = X_class.sum(axis=0)
+        
 
+        self._class_log_prior = np.log(self._class_count / n_samples)
 
-        for index, _class in enumerate(self.classes_):
-            X_c = X[y == _class]
-            class_count[index] = X_c.shape[0]
-            feature_count[index, : ] = X_c.sum(axis=0)
-
-
-        self.class_log_prior_ = np.log(class_count) - np.log(class_count.sum())
-
-
-        smothed_fc = feature_count + self.alpha
-        smothed_cc = smothed_cc.sum(axis=1).reshape((-1, 1))
-        self.feature_log_prob_ = np.log(smothed_fc) - np.log(smothed_cc)
-
+        self._feature_log_prior = np.log((self._feature_count + self.alpha) / 
+                                           (self._feature_count.sum(axis=1, keepdims=True) + self.alpha * n_features))
+        
 
 
     def predict(self,
                 X : np.array) -> np.array:
-        jill = X @ self.feature_log_prob_.T + self.class_log_prior_
-        return self.classes_[np.argmax(jill, axis=1)]
+        y_pred = [self._predict(x) for x in X]
+        return np.array(y_pred)
+    
+
+    def _predict(self,
+                 X : np.array) -> int:
+        log_probs = []
+
+        for index, _class in enumerate(self._classes):
+            log_prob = self._class_log_prior[index]
+            log_prob += np.sum(self._feature_log_prior[index, : ])
+            log_probs.append(log_prob)
+        
+
+        return self._classes[np.argmax(log_probs)]
