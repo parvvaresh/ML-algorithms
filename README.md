@@ -23,11 +23,11 @@
     - distance Weight KNN ✓
 - Decision Tree ✓
 - Random Forest ✓
-- Logistic Regression 
+- Logistic Regression ✓
 - Bayesian 
     - Gaussian ✓
     - Multinomial ✓
-- Minimum Distance Classifier 
+- Minimum Distance Classifier ✓
 - Support Vector Machine (SVM)
 - Perceptron ✓
 - simple MLP
