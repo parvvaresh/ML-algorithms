@@ -1,8 +1,7 @@
 import numpy as np
-from collections import Counter
 
 from node import Node
-from utils import entropy
+from utils import entropy, most_common_label
 
 
 class DecisionTree:
@@ -42,7 +41,7 @@ class DecisionTree:
             or
             n_labels == 1
         ):
-            leaf_value = self._most_common_label(y)
+            leaf_value = most_common_label(y)
             return Node(value=leaf_value)
         
 
@@ -122,7 +121,3 @@ class DecisionTree:
         return self._traverse_tree(x, node.right)
     
 
-    def _most_common_label(self, y):
-        counter = Counter(y)
-        most_common = counter.most_common(1)[0][0]
-        return most_common

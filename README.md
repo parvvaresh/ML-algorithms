@@ -21,9 +21,14 @@
 - KNN (with 2 distance metric) ✓
     - uniform KNN ✓
     - distance Weight KNN ✓
-- Decision Tree ✓
-- Random Forest ✓
-- Logistic Regression ✓
+- Tree 
+    - Decision Tree ✓
+    - Random Forest 
+- Regression : 
+    - Logistic Regression 
+    - Ridge Regression 
+    - Lasso Regression 
+    - ElasticNet Regression 
 - Bayesian 
     - Gaussian ✓
     - Multinomial ✓
