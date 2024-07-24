@@ -23,7 +23,8 @@
     - distance Weight KNN ✓
 - Tree 
     - Decision Tree ✓
-    - Random Forest 
+    - Random Forest ✓
+    - Ada boost
 - Regression : 
     - Logistic Regression 
     - Ridge Regression 
