@@ -43,5 +43,11 @@
 - Linear Discriminant Analysis (LDA)
 
 
+### 4. Normalization data
+- sandardScaler ✓
+- MinMaxScaler ✓
+- MaxAbsScaler ✓
+- RobustScaler ✓
+- Normalizer ✓
 
 ### added soon
