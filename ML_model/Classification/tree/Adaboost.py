@@ -25,8 +25,10 @@ class DecisionStump:
 
 class AdaBoost:
     def __init__(self,
-                n_clf : int) -> None:
+                n_clf : int,
+                learning_rate : float) -> None:
         self.n_clf = n_clf
+        self.learning_rate = learning_rate
     
 
     def fit(self, 
@@ -66,7 +68,7 @@ class AdaBoost:
 
             EPS = 1e-10
             self.alpha = 0.5 
-            clf.alpha = 0.5 * np.log((1.0 - min_error + EPS) / (min_error + EPS))
+            clf.alpha = self.learning_rate * 0.5 * np.log((1.0 - min_error + EPS) / (min_error + EPS))
             predictions = clf.predict(X)
 
             w *= np.exp(-clf.alpha * (y != predictions))
