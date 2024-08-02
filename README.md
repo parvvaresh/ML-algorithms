@@ -12,9 +12,6 @@
 - Decision Tree Regression
 - Random Forest Regression
 - Support Vector Regression (SVR)
-- Bayesian Regression  
-- KNN Regression 
-- Weight KNN Regression 
 
 ### 2. Clustering:
 - K-Means
