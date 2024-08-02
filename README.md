@@ -3,14 +3,16 @@
     - Linear Regression ✓
     - Ridge Regression ✓
     - Lasso Regression ✓
-    - ElasticNet Regression 
+    - ElasticNet Regression ✓
 
 - KNN Regression (with 2 distance metric) ✓
     - uniform KNN ✓
     - distance Weight KNN ✓
 
-- Decision Tree Regression
-- Random Forest Regression
+
+- Tree Regression
+    - Decision Tree Regression
+    - Random Forest Regression
 - Support Vector Regression (SVR)
 
 ### 2. Clustering:
@@ -54,4 +56,13 @@
 - RobustScaler ✓
 - Normalizer ✓
 
-### added soon
+### 5. metrics 
+
+- regression : 
+    - None
+
+- Classification:
+    - accourcy
+    - recall
+    - prescion
+    - f1-score
