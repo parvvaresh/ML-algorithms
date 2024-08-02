@@ -1,8 +1,14 @@
 ### 1. Regression:
-- Linear Regression 
-- Ridge Regression 
-- Lasso Regression 
-- ElasticNet Regression 
+- linear model 
+    - Linear Regression ✓
+    - Ridge Regression ✓
+    - Lasso Regression ✓
+    - ElasticNet Regression 
+
+- KNN Regression (with 2 distance metric) ✓
+    - uniform KNN ✓
+    - distance Weight KNN ✓
+
 - Decision Tree Regression
 - Random Forest Regression
 - Support Vector Regression (SVR)
@@ -24,7 +30,8 @@
 - Tree 
     - Decision Tree ✓
     - Random Forest ✓
-    - Ada boost
+- Ensemble
+    - AdaBost ✓
 - Regression : 
     - Logistic Regression 
     - Ridge Regression 
