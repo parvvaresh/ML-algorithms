@@ -59,7 +59,9 @@
 ### 5. metrics 
 
 - regression : 
-    - None
+    - MSE ✓
+    - MAE ✓
+    - R2-Score ✓
 
 - Classification:
     - accourcy
