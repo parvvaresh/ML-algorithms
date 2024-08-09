@@ -9,7 +9,6 @@
     - uniform KNN ✓
     - distance Weight KNN ✓
 
-
 - Tree Regression
     - Decision Tree Regression
     - Random Forest Regression
@@ -44,6 +43,8 @@
 - Perceptron ✓
 - simple MLP
 
+
+
 ### 3. Dimensionality Reduction:
 - Principal Component Analysis (PCA)
 - Linear Discriminant Analysis (LDA)
@@ -68,3 +69,7 @@
     - recall
     - prescion
     - f1-score
+
+### 6.cosine similarity ✓
+- cosine similarity ✓
+- cosine similarity matrix ✓
