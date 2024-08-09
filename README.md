@@ -41,7 +41,6 @@
 - Minimum Distance Classifier ✓
 - Support Vector Machine (SVM)
 - Perceptron ✓
-- simple MLP
 
 
 
@@ -65,10 +64,10 @@
     - R2-Score ✓
 
 - Classification:
-    - accourcy
-    - recall
-    - prescion
-    - f1-score
+    - accourcy ✓
+    - recall ✓
+    - prescion ✓
+    - f1-score ✓
 
 ### 6.cosine similarity ✓
 - cosine similarity ✓
