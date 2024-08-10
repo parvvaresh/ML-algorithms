@@ -14,7 +14,7 @@ class Logsticregression:
         n_samples , n_features = X.shape
         self.costs = []
 
-        self.weights = np.zeros(n_samples)
+        self.weights = np.zeros(n_features)
         self.bias = 0
 
         for _ in range(self.n_iters):
