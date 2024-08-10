@@ -31,7 +31,7 @@
 - Ensemble
     - AdaBost ✓
 - Regression : 
-    - Logistic Regression 
+    - Logistic Regression ✓
     - Ridge Regression 
     - Lasso Regression 
     - ElasticNet Regression 
