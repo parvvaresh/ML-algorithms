@@ -69,6 +69,12 @@
     - prescion ✓
     - f1-score ✓
 
-### 6.cosine similarity ✓
+### 6.cosine similarity 
 - cosine similarity ✓
 - cosine similarity matrix ✓
+
+
+### 7. Statistics
+- covariance
+- covariance matrix
+- correlation
